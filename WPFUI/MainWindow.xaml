@@ -77,7 +77,8 @@
 
                     <TextBlock Grid.Row="0"
                                HorizontalAlignment="Center"
-                               Text="{Binding CurrentLocation.Name}" />
+                               Text="{Binding CurrentLocation.Name}" 
+                               TextWrapping="Wrap" />
                     <?Image Grid.Row="1"
                            HorizontalAlignment="Center"
                            Width="125"
@@ -85,7 +86,8 @@
                            Source="{Binding CurrentLocation.ImageName}" /?>
                     <TextBlock Grid.Row="2"
                                HorizontalAlignment="Center"
-                               Text="{Binding CurrentLocation.Description}" />
+                               Text="{Binding CurrentLocation.Description}" 
+                               TextWrapping="Wrap" />
                 </Grid>
             </Border>
         </Grid>
